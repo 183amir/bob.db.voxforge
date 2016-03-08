@@ -27,6 +27,8 @@ install_requires = load_requirements()
 version = open("version.txt").read().rstrip()
 
 setup(
+    namespace_packages=['bob'],
+
 
     name='bob.db.voxforge',
     version=version,
